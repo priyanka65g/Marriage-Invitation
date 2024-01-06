@@ -4,7 +4,7 @@ body{
     background-image: url(6.jpg);
     background-repeat: no-repeat;
     background-size: 100vh;
-    background-size: cover;
+/*     background-size: cover; */
     /* background-attachment: fixed; */
     text-align: center;
     line-height: 1;
