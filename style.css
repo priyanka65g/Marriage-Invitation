@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Pixelify+Sans&family=Poppins:ital,wght@1,700&display=swap');
+body{
+    background-image: url(6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    text-align: center;
+    line-height: 1;
+    font-family: "Kalam";
+    font-weight: bold;
+    font-size: 0.4rem;
+    margin-top: 25%;
+}
+
+.date{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+span{
+    font-weight:bolder;
+}
+.names{
+    padding-top:10px;
+    font-size: 30px;
+    font-weight: bolder;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#000); 
+    text-transform: uppercase;
+    font-family: Arial;
+    font-family: 'Lobster', sans-serif;
+    line-height: 0.7em;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:blue;
+        text-shadow:none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: black;
+        text-shadow: 0 0 10px blueviolet,
+        0 0 20px blueviolet,
+        0 0 40px blueviolet,
+        0 0 80px blueviolet,
+        0 0 160px blueviolet;
+
+
+    }
+}
+/* .names,.amp{
+    opacity: 0;
+    animation: revealText 1s linear forwards;
+}
+.one{
+    animation-delay: 1s;
+}
+.two{
+    animation-delay: 2s;
+}
+.three{
+    animation-delay: 2.5s;
+}
+@keyframes revealText{
+    from{
+        transform: translate(20px);
+    }
+    to{
+        opacity:1;
+        transform: none;
+    }
+} */
+
+
+.amp{
+    font-size: 1.2rem;
+    color: rgb(3, 57, 94);
+    padding-top:20px;
+}
+p{
+   color: rgb(26, 63, 226);
+   letter-spacing: 0.5px;
+}
+h1{
+    color: rgb(34, 27, 143);
+    text-align:center;
+    font-weight:bold;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+.finalimg{
+    display:flex;
+    justify-content: space-between;
+    gap: 200px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.message{
+    font-size: 15px;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:20px;
+    color: rgb(21, 33, 199);
+}
+address{
+    color:  rgb(14, 7, 78);
+    font-size: 9px;
+
+}
+a{
+    text-decoration: none;
+    color:  rgb(81, 9, 114);
+    font-size: 10px;
+
+}
+a:hover{
+    color:rgb(18, 4, 66)
+}
+img{
+    position:absolute;
+    
+}
+.container{
+    width:100px;
+    height:100px;
+    position: relative;
+    padding-top:20px;
+    margin-left: 30%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg) rotateZ(-10deg);
+    animation: ror 20s linear infinite;
+}
+@keyframes ror{
+    50%{
+        transform: rotateX(30deg);
+    }
+    80%{
+        transform: rotateX(-30deg);
+    }
+}
+.images{
+    width:100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate{
+    from{
+
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+img:nth-child(1){
+    transform: rotateY(60deg) translateZ(100px);
+}
+img:nth-child(2){
+    transform: rotateY(120deg) translateZ(100px);
+}
+img:nth-child(3){
+    transform: rotateY(180deg) translateZ(100px);
+}
+img:nth-child(4){
+    transform: rotateY(240deg) translateZ(100px);
+}
+img:nth-child(5){
+    transform: rotateY(300deg) translateZ(100px);
+}
+img:nth-child(6){
+    transform: rotateY(360deg) translateZ(100px);
+}
+img:hover{
+    width:150px;
+    height:150px;
+}
