@@ -122,11 +122,12 @@ a:hover{
 }
 img{
     position:absolute;
-    
+    width:150px;
+    height:150px;
 }
 .container{
-    width:140px;
-    height:140px;
+    width:150px;
+    height:150px;
     position: relative;
     padding-top:20px;
     margin-left: 30%;
