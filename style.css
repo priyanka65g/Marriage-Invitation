@@ -125,37 +125,30 @@ img{
     
 }
 .container{
-    width:100px;
-    height:100px;
+    width:140px;
+    height:140px;
     position: relative;
     padding-top:20px;
     margin-left: 30%;
     perspective: 1000px;
     transform-style: preserve-3d;
-    transform: rotateX(-10deg) rotateZ(-10deg);
-    animation: ror 20s linear infinite;
+    /* transform: rotateX(-10deg) rotateZ(-10deg); */
 }
-@keyframes ror{
-    50%{
-        transform: rotateX(30deg);
-    }
-    80%{
-        transform: rotateX(-30deg);
-    }
-}
+
 .images{
     width:100%;
     position: absolute;
     transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
 }
-/* @keyframes rotate{
+@keyframes rotate{
     from{
 
     }
     to{
         transform: rotateY(360deg);
-    } 
-}*/
+    }
+}
 img:nth-child(1){
     transform: rotateY(60deg) translateZ(100px);
 }
@@ -175,6 +168,6 @@ img:nth-child(6){
     transform: rotateY(360deg) translateZ(100px);
 }
 img:hover{
-    width:150px;
-    height:150px;
+    width:200px;
+    height:200px;
 }
