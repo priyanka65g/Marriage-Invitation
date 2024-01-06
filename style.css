@@ -3,8 +3,8 @@
 body{
     background-image: url(6.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    /* background-size: cover; */
+    background-size: 100vh;
+    background-size: cover;
     /* background-attachment: fixed; */
     text-align: center;
     line-height: 1;
@@ -147,16 +147,15 @@ img{
     width:100%;
     position: absolute;
     transform-style: preserve-3d;
-    animation: rotate 20s linear infinite;
 }
-@keyframes rotate{
+/* @keyframes rotate{
     from{
 
     }
     to{
         transform: rotateY(360deg);
-    }
-}
+    } 
+}*/
 img:nth-child(1){
     transform: rotateY(60deg) translateZ(100px);
 }
