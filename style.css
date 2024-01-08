@@ -4,7 +4,7 @@
 body{
     background-image: url(6.jpg);
     background-repeat: no-repeat;
-    background-size:550px;
+    background-size:600px;
     /* background-attachment: fixed; */
     text-align: center;
     line-height: 1;
@@ -128,9 +128,9 @@ img{
     width:100px;
     height:100px;
     position: relative;
-    padding-top:20px;
+  
     /* margin-left: 30%; */
-    perspective: 2000px;
+    perspective: 1000px;
     transform-style:preserve-3d;
     /* transform: rotateX(-10deg) rotateZ(-10deg); */
 }
@@ -140,7 +140,7 @@ img{
     width:100%;
     position: absolute;
     transform-style:preserve-3d;
-    animation: rotate 30s linear infinite;
+    animation: rotate 40s linear infinite;
 }
 @keyframes rotate{
     from{
