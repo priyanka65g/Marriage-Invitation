@@ -3,7 +3,6 @@
 body{
     background-image: url(6.jpg);
     background-repeat: no-repeat;
-    
     background-size: cover;
     /* background-attachment: fixed; */
     text-align: center;
@@ -11,7 +10,9 @@ body{
     font-family: "Kalam";
     font-weight: bold;
     font-size: 0.4rem;
-    margin-top: 25%;
+    margin-top: 30%;
+    size: 100%;
+    color: black;
 }
 
 .date{
@@ -27,7 +28,7 @@ span{
     padding-top:10px;
     font-size: 30px;
     font-weight: bolder;
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#000); 
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent,#000);  */
     text-transform: uppercase;
     font-family: Arial;
     font-family: 'Lobster', sans-serif;
@@ -36,17 +37,17 @@ span{
 }
 @keyframes animate {
     0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
-        color:blue;
+        /* color:blue; */
         text-shadow:none;
     }
     18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
     {
         color: black;
-        text-shadow: 0 0 10px blueviolet,
-        0 0 20px blueviolet,
-        0 0 40px blueviolet,
-        0 0 80px blueviolet,
-        0 0 160px blueviolet;
+        text-shadow: 0 0 10px rgb(61, 66, 112),
+        0 0 20px rgb(61, 66, 112),
+        0 0 40px rgb(61, 66, 112),
+        0 0 80px rgb(61, 66, 112),
+        0 0 160px rgb(61, 66, 112);
 
 
     }
@@ -81,11 +82,11 @@ span{
     padding-top:20px;
 }
 p{
-   color: rgb(26, 63, 226);
+   /* color: rgb(26, 63, 226); */
    letter-spacing: 0.5px;
 }
 h1{
-    color: rgb(34, 27, 143);
+    /* color: rgb(34, 27, 143); */
     text-align:center;
     font-weight:bold;
     font-size: 35px;
@@ -102,32 +103,32 @@ h1{
 .message{
     font-size: 15px;
     padding-right:50px;
-    padding-left:50px;
+    padding-left:25%;
     padding-top:20px;
-    color: rgb(21, 33, 199);
+    /* color: rgb(21, 33, 199); */
 }
 address{
-    color:  rgb(14, 7, 78);
+    /* color:  rgb(14, 7, 78); */
     font-size: 9px;
 
 }
 a{
     text-decoration: none;
-    color:  rgb(81, 9, 114);
+    color:  rgb(35, 23, 78);
     font-size: 10px;
 
 }
 a:hover{
-    color:rgb(18, 4, 66)
+    color:rgb(9, 86, 122)
 }
 img{
     position:absolute;
-    width:100px;
-    height:150px;
+    height:120px;
+    width:110px;
 }
 .container{
-    width:120px;
-    height:120px;
+    width:100px;
+    height:100px;
     position: relative;
     padding-top:20px;
     margin-left: 30%;
@@ -137,6 +138,7 @@ img{
 }
 
 .images{
+    
     width:100%;
     position: absolute;
     transform-style: preserve-3d;
