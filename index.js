@@ -2,17 +2,19 @@ var fullName = prompt("enter your name");
 var noSpaces = fullName.split(" ").join("");
 var names = noSpaces.toLowerCase();
 const machaNames = ["mouni","mounish","cheenu","srinivas","dhanesh","sunil"];
-const girlNames = ["janani","sushmitha","susi","deepa","vinitha","shakila","vini","sakila"];
+const girlNames = ["janani","deepa","vinitha","shakila","vini","sakila"];
 const genNames = ["prashanth","prasanth","dilipkumar"];
 const mamaNames = ["bharath","barath","ragu","raguraman","sarath","dilli","dillibabu"];
-const annaNames = ["sharath", "vinoth","shoban","nandakumar","nandhakumar","nandha","nanda"];
-const akkaNames = ["swapna","usha","durga","suganya","revathi","revathy","priya","priyanka","kavitha","kalpana"];
+const annaNames = ["sharath", "vinoth","shoban","nandakumar","nandhakumar","nandha","nanda","chittibabu","chitti","gunasekar","baskhar","baskar"];
+const akkaNames = ["swapna","sivaranjini","Shamili","sham","usha","durga","suganya","revathi","revathy","priya","priyanka","kavitha","kalpana"];
 const ofzAnna = ["thirupathi","sangappa","abhishek"];
 const ofzJi = ["shivukumar","akhilesh","akilesh","pavan","gopiram","manjunatha r","manjunatha","amruth","prbhakar","prabhakar","balaji"];
 const mummy = ["jyothi"]; 
+const susi=["susi","sushmitha"]
 const aunty = ["roopa"];
 const sir = ["anilkulkarni","kashi","balachandra","anil"];
-
+const ofzmale = ["vijay"];
+const ofzfemale = ["maya"];
 const nikhil = ["nikhil"];
 const anni = ["sneka","snekha","sneha"];
 const sissy = ["praveena","pravena","pravina","nisha","preethi","preethy","shalini","shallni","shalni"]
@@ -21,6 +23,7 @@ var emoji = String.fromCodePoint(0x1F61C);
 if (machaNames.includes(names)){
     document.querySelector(".message").textContent="Dei Macha " +names+ " soli mudiyapodhu shock aagadha, enake oru ponnu okay paniduchu macha engagement panikapora, ungalukum seekram kedaikum vaitherichal padama vandhu serunga da aana sambhar soru dhan"+emoji;   
 }
+
 else if(girlNames.includes(names)){
     document.querySelector(".message").textContent="Hey " +names+ " baby...Enaku engagement aagapodhu happy ah dhan iruku but unna lam miss pana poranu nenacha konjam feeling ah iruku " +String.fromCodePoint(0x1F622)+ " aanalum nee epome en aalu dhan kavala padama mama engagement ku vandhu seru"+String.fromCodePoint(0x1F60D);   
 }
@@ -57,9 +60,18 @@ else if(genNames.includes(names)){
 else if(anni.includes(names)){
     document.querySelector(".message").textContent="Anni'nravanga inoru amma maari adhanala engagement ah munadi ninnu nadathi kudunga apdiye andha honeymoon package ah matum annan kita soli book pani kuduka solunga " +emoji+ " plzz anni..."
 }
+else if(susi.includes(names)){
+    document.querySelector(".message").textContent="Hi susi, enaku kalyanam aagapodhu rendu naal munadiye vandhuru..kalyanam ayiduchu nu call panama lam irukadha epavum pola walking porapa call panu baby " +emoji;
+}
+
 else if(sissy.includes(names)){
     document.querySelector(".message").textContent="Hi papa annan ku marriage fix ayiduchu...adhanala nov 19th engagement paniklam nu unga anniyum nanum decide pani irukom so, kandipa varanum...miss panadhinga apram nan varutha paduven..."
 }
 else {
-document.querySelector(".message").textContent="Hey hi "+names+"! 'Matches are made in heaven!' Happy to announce that we are getting Engaged Let's celebrate the beginning to our new life...We cordially invite you to join the ceremony and shower your blessings on us";
+    var gender = prompt("enter your gender as male or female");
+    // if (gender === male){
+    //     document.querySelector(".message").textContent=`Hi Mr.${names}, Happy to announce that I am getting Engaged and I cordially invite you to join the ceremony and shower your blessings on us`;
+    // }
+    // else{
+        document.querySelector(".message").textContent="Hi Mr/Mrs." +names+ ", Love is in the air, and we're thrilled to announce our big day! We would be absolutely delighted by your presence at our wedding celebration";
 }
