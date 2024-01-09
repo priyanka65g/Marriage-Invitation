@@ -88,9 +88,9 @@ h1{
     /* color: rgb(34, 27, 143); */
     text-align:center;
     margin-top: 50px;
-   margin-left: 15%;
+  /* margin-left: 15%;*/
     font-weight:bold;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Mea Culpa', cursive;
 }
 
