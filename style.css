@@ -4,15 +4,15 @@
 body{
     background-image: url(1.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    /* background-attachment: fixed; */
+    background-size:100vw 100vh;
+    background-attachment:scroll;
     text-align: center;
     line-height: 1;
     font-family: "Kalam";
     font-weight: bold;
     font-size: 0.4rem;
+
     color: black;
-  
 }
 
 .date{
@@ -21,9 +21,7 @@ body{
 
 }
 
-span{
-    font-weight:bolder;
-}
+
 .names{
     padding-top:10px;
     font-size: 30px;
@@ -88,7 +86,7 @@ h1{
     /* color: rgb(34, 27, 143); */
     text-align:center;
     margin-top: 50px;
-  /* margin-left: 15%;*/
+    /* margin-left: 15%; */
     font-weight:bold;
     font-size: 30px;
     font-family: 'Mea Culpa', cursive;
@@ -128,7 +126,7 @@ img{
     width:100px;
     height:100px;
     position: relative;
-  
+    /* padding-top:20px; */
     /* margin-left: 30%; */
     perspective: 1000px;
     transform-style:preserve-3d;
