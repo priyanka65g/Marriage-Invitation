@@ -2,9 +2,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Bilbo+Swash+Caps&family=Mea+Culpa&family=Meie+Script&family=Monsieur+La+Doulaise&family=Petit+Formal+Script&family=Playball&family=Sacramento&family=WindSong:wght@500&display=swap');
 
 body{
-    background-image: url(3.jpg);
+    background-image: url(1.jpg);
     background-repeat: no-repeat;
-    background-size:500px;
+    background-size:cover;
     /* background-attachment: fixed; */
     text-align: center;
     line-height: 1;
